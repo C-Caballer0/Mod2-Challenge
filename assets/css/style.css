@@ -1,0 +1,65 @@
+:root{
+    --accents: rgb(3, 74, 102);
+
+}
+
+body{
+    background-color: rgb(33, 142, 175);
+}
+
+a {
+    color: White;
+}
+.NavBar{
+    padding: 15px;
+    Width: 100%;
+    display: inline-block;
+    background-color: var(--accents);
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.NavBar h1{
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+
+}
+
+.NavBar ul{
+    border: 20px;
+    padding-right: 30px;
+    float: right;
+    display: inline-block;
+    
+}
+
+.NavBar ul li{
+    border: 15px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.examples{
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 25%;
+}
+
+.examples img{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.contactMe ul{
+    list-style-type: none;
+}
+
+footer{
+    position: fixed()
+}
