@@ -28,6 +28,20 @@ a {
 
 }
 
+.sample{
+    border-width: 5px;
+    border-color: black;
+    background-color: white;
+    max-width: 20%;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+ 
+.sample p{
+    margin: 20px;
+}
+
 .NavBar ul{
     border: 20px;
     padding-right: 30px;
